@@ -1,0 +1,21 @@
+.Logo{
+    padding: 5px
+}
+
+.Navbar-Image{
+    padding-right: 5px;
+}
+
+.Remote-Title{
+    font-family: 'Epilogue', 'sans-serif';
+    font-weight: bold;
+    display: flex;
+}
+
+.Text-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
