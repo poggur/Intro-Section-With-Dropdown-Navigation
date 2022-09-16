@@ -1,5 +1,5 @@
 .big-div{
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,12 +17,15 @@
     font-family: 'Epilogue', 'sans-serif';
     font-weight: bold;
     display: flex;
+    font-size: 120px;
+    margin-bottom: 60px;
 }
 
 .flavour-text{
     font-family: 'Epilogue', 'sans-serif';
     display: flex; 
     color: grey;
+    font-size: 18px;
 }
 
 .Main-div{
@@ -30,24 +33,31 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
 }
 
 .text-div{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: 100%;
+    min-height: 100%;
     width: 50%; 
+    margin-left: 60px;
 }
 
 .image-div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
-    width: 50%; 
+    min-height: 100%;
+    width: 50%;
+}
+
+.sponsor-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .image-size{
@@ -59,3 +69,15 @@
     height: 75%;
     width: 100%;
 }    
+
+.Learn{
+    margin-top: 50px;
+    width:15%;
+    height:20%;
+}
+
+.sponsor-image-size{
+    width:15%;
+    height: 10%;
+    margin-right: 60px;
+}
