@@ -61,18 +61,14 @@
 }
 
 .image-size{
-    height: 100%;
+    height: 125%;
     width: 50%;
+    margin-top: 20px;
 }
-
-.jeremy{
-    height: 75%;
-    width: 100%;
-}    
 
 .Learn{
     margin-top: 50px;
-    width:15%;
+    width:20%;
     height:20%;
 }
 
@@ -80,4 +76,73 @@
     width:15%;
     height: 10%;
     margin-right: 60px;
+}
+
+.desktop{
+    display: flex;
+}
+
+.mobile{
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .mobile {
+        display: flex;
+    }
+    
+    .desktop {
+        display: none;
+    }
+
+    .Main-div{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .image-div{
+        width: 100%;
+    }
+
+    .text-div{
+        width: 100%;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .image-size{
+        width: 100%;
+        height: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .Remote-Title{
+        font-family: 'Epilogue', 'sans-serif';
+        font-weight: bold;
+        display: flex;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .Learn{
+        margin-top: 50px;
+        width:50%;
+        height:20%;
+    }   
+    
+    .sponsor-image-size{
+        width:15%;
+        height: 10%;
+        margin: 15px;
+    }
+
+    .sponsor-div{
+        justify-content: space-evenly;
+    }
+
+    .flavour-text{
+        margin-left: 5px;
+    }
+
 }
